@@ -1,0 +1,137 @@
+/*
+Theme Name: ThemeGer Documentation
+Theme URI: http://www.themeger.com
+Author: ThemeGer
+Author URI: http://www.themeger.com
+Description: ThemeGer documentation theme
+Version: 1.0
+License: GNU General Public License
+License URI: http://themeforest.net/wiki/support/legal-terms/licensing-terms/
+Text Domain: pxldoc
+*/
+
+body {
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: #EEE;
+    line-height: 2;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    color: #000;
+}
+
+a {
+    color: #222;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #222;
+    text-decoration: none;
+}
+
+a:focus {
+    color: #222;
+}
+
+section {
+    padding: 15px 40px;
+    background: #FFF;
+    margin: 30px 0;
+    border-radius: 10px;
+    border-bottom: solid 1px #EEE;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.nav-pills>li>a {
+    border-radius: 0;
+    border-bottom: solid 1px #444;
+}
+
+.nav-stacked>li+li {
+    margin-top: 1px;
+    margin-left: 0;
+}
+
+.list-group li {
+	list-style: none;
+}
+
+.list-group li a {
+    display: block;
+    text-decoration: none;
+}
+
+.list-group li.active a {
+    color: #000;
+    text-decoration: none;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    background-color: #fff;
+    border: 0;
+    border-bottom: solid 1px #EEE;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #000;
+    background-color: #fcf8e3;
+    border-color: #fcf8e3;
+}
+
+.panel-primary>.panel-heading {
+    color: #000;
+    background-color: #FFF;
+    border-color: #fcf8e3;
+}
+
+.panel-body {
+    padding: 30px 50px;
+}
+
+.panel-heading {
+    padding: 16px 30px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: solid 1px #EEE;
+}
+
+.alert {
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
